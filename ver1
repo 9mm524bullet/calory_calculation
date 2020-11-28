@@ -1,0 +1,59 @@
+
+class Main{
+	
+	public static void main(String [] args) {
+		
+		class Food{
+			String name;
+			int calory;
+		}
+		
+		Food breakfast1 = new Food();
+		breakfast1.name ="食パン";
+		breakfast1.calory = 180;
+		
+		Food breakfast2 = new Food();
+		breakfast2.name ="ごはん";
+		breakfast2.calory = 302;
+		
+		Food lunch1 = new Food();
+		lunch1.name ="牛丼";
+		lunch1.calory = 652;
+		
+		Food lunch2 = new Food();
+		lunch2.name ="カツ丼";
+		lunch2.calory = 902;
+		
+		Food lunch3 = new Food();
+		lunch3.name ="きのこスパゲティー";
+		lunch3.calory = 439;
+		
+		Food dinner1 = new Food();
+		dinner1.name ="刺身定食";
+		dinner1.calory = 476;
+		
+		Food dinner2 = new Food();
+		dinner2.name ="トンカツ定食";
+		dinner2.calory = 817;
+		
+		Food dinner3 = new Food();
+		dinner3.name ="サバの味噌煮定食";
+		dinner3.calory = 704;
+		
+		Food dinner4 = new Food();
+		dinner4.name ="焼き魚定食";
+		dinner4.calory = 562;
+		
+		
+		System.out.println("今日の朝食を選んでください");
+		printData();
+		
+	}
+	
+	
+class 
+	public static void printData() {
+		System.out.println("朝食1:" + name);
+	}
+	
+}
